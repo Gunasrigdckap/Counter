@@ -1,0 +1,51 @@
+body{
+    background-image: url(1600w-_Tcjok-d9b4.webp);
+}
+
+.container{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+    /* background-color: red; */
+    margin-left: 25%;
+    box-shadow: 3px 3px 15px 3px gray;
+    
+}
+button{
+    width:100px ;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 15px;
+    box-shadow: 2px 2px 2px gray;
+}
+button:hover{
+    transform: scale(1.1,1.1);
+}
+#btn1{
+background-color: rgb(251, 58, 58);
+color: white;
+}
+#btn2{
+    background-color: white;
+    color: black;
+}
+#btn3{
+    background-color: green;
+    color: white;
+}
+h1{
+    color: rgba(0, 0, 0, 0.762);
+    
+}
+h2{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.762);
+
+}
